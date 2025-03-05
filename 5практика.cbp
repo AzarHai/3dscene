@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="5практика" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/5практика" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/Users/wieze/Desktop/Новая папка/glew-2.1.0/include" />
+					<Add directory="C:/Users/wieze/Desktop/Новая папка/glfw-3.4.bin.WIN64/include" />
+					<Add directory="C:/Users/wieze/Desktop/Новая папка/glm-master" />
+					<Add directory="C:/Users/wieze/Desktop/Новая папка/freeglut-MSVC-3.0.0-2.mp/freeglut/include" />
+					<Add directory="../test1/lib/loader" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lopengl32" />
+					<Add library="C:/Users/wieze/Desktop/Новая папка/glew-2.1.0/lib/Release/x64/glew32.lib" />
+					<Add library="C:/Users/wieze/Desktop/Новая папка/glfw-3.4.bin.WIN64/lib-mingw-w64/libglfw3dll.a" />
+					<Add library="C:/Users/wieze/Desktop/Новая папка/freeglut-MSVC-3.0.0-2.mp/freeglut/lib/x64/freeglut.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/wieze/Desktop/Новая папка/glew-2.1.0/include" />
+			<Add directory="C:/Users/wieze/Desktop/Новая папка/glfw-3.4.bin.WIN64/include" />
+			<Add directory="C:/Users/wieze/Desktop/Новая папка/freeglut-MSVC-3.0.0-2.mp/freeglut/include" />
+			<Add directory="C:/Users/wieze/Desktop/Новая папка/glm-master" />
+		</Compiler>
+		<Linker>
+			<Add option="-lopengl32" />
+			<Add library="C:/Users/wieze/Desktop/Новая папка/glew-2.1.0/lib/Release/x64/glew32.lib" />
+			<Add library="C:/Users/wieze/Desktop/Новая папка/glfw-3.4.bin.WIN64/lib-mingw-w64/libglfw3dll.a" />
+			<Add library="C:/Users/wieze/Desktop/Новая папка/freeglut-MSVC-3.0.0-2.mp/freeglut/lib/x64/freeglut.lib" />
+		</Linker>
+		<Unit filename="Source.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

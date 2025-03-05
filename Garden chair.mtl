@@ -1,0 +1,13 @@
+# Blender 4.2.3 LTS MTL File: 'Garden chair.blend'
+# www.blender.org
+
+newmtl Material_polypropylene
+Ns 55.867775
+Ka 1.000000 1.000000 1.000000
+Kd 0.007448 0.019205 0.091037
+map_Kd Round table texture.jpg
+Ks 0.395455 0.395455 0.395455
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
