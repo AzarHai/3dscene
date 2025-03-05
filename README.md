@@ -1,11 +1,11 @@
-# Solar-system-OPENGL
-The project has been developed in Visual Studio 2015. This is a very simple Solar System simulator and was created for Grahics Programming course.
+# Witch teacup
+The project was developed in CodeBlocks 20.03. It is a very simple scene simulation created for a graphical programming course.
 
 # Useage
 Zoom in/out with mouse wheel.
 
-Rotate with keys a,d,w,s.
+Move with the keys w,a,s,d.
 
-Pause/Play with space key.
+Rotate rabbit with the keys up,down,left,right.
 
-Quit with key q.
+Quit with key esc.
