@@ -10,4 +10,6 @@ Rotate rabbit with the keys up,down,left,right.
 
 Quit with key esc.
 # Review
-![Desktop 2025 03 05 - 21 59 51 05](https://github.com/user-attachments/assets/c2585879-3278-4ea0-8129-9fef9a3935c9)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c2585879-3278-4ea0-8129-9fef9a3935c9" alt="image">
+</p>
